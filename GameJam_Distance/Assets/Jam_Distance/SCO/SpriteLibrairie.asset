@@ -12,9 +12,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af613d1073058843a90286a56d60c43, type: 3}
   m_Name: SpriteLibrairie
   m_EditorClassIdentifier: 
-  hairs: []
-  masks: []
-  bears: []
-  outfits: []
+  body_men:
+  - {fileID: 21300000, guid: 43524a4bab208064abbd0d646cd51397, type: 3}
+  hat_men:
+  - {fileID: 0}
+  - {fileID: 21300000, guid: a09b4b8d816816c40865f450c00e005a, type: 3}
+  - {fileID: 21300000, guid: 7d0df0c78563d9448b6db05e724a0903, type: 3}
+  hairs_men:
+  - {fileID: 21300000, guid: 4d70b3314e6a3c64e8d4fcecdaa95b9a, type: 3}
+  - {fileID: 21300000, guid: 51fb0a3c77e8e8e44ab67762f970793c, type: 3}
+  - {fileID: 21300000, guid: 8fa5d2a59174d2a4599b33a767e0d872, type: 3}
+  - {fileID: 21300000, guid: 9893be2f9147d6f4db4df811166e3e47, type: 3}
+  - {fileID: 21300000, guid: 4eef4775ef284f94abba6015f56009da, type: 3}
+  masks_men:
+  - {fileID: 21300000, guid: 4979e3016cd72f94591568aba4844e64, type: 3}
+  - {fileID: 21300000, guid: c2f87b600e3139b40ac8def68cced0cd, type: 3}
+  - {fileID: 21300000, guid: a0976bbe66addd34191c28b9db31f01b, type: 3}
+  - {fileID: 21300000, guid: 50a6a1c18b2f6ad46a587d568c10c58c, type: 3}
+  bears_men:
+  - {fileID: 21300000, guid: 207fa7879ec05ef418f8fa61b3642e48, type: 3}
+  - {fileID: 21300000, guid: 79c32e3d07629894094084c4c8fa0bb8, type: 3}
+  outfits_men:
+  - {fileID: 21300000, guid: 355d511c4197eda499023defc3aac607, type: 3}
+  - {fileID: 21300000, guid: 87690f30178fbdf448e42051c4849cc8, type: 3}
+  - {fileID: 21300000, guid: 62ceea0a4e7067c40a7ee068fe2ea5bd, type: 3}
+  - {fileID: 21300000, guid: dcaaf1d6c947f4944a986db12a79a765, type: 3}
+  - {fileID: 21300000, guid: 0aaa4890c1e8e5a40820d0f545521b60, type: 3}
+  body_women:
+  - {fileID: 21300000, guid: 8f4722e0ef32e8a4b9c4a4ea715fc333, type: 3}
+  hat_women:
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 723fc7b7d154a4742807aa537556b731, type: 3}
+  hairs_women:
+  - {fileID: 21300000, guid: 8a7c1a4e72f7a914281e56ff982e0af3, type: 3}
+  - {fileID: 21300000, guid: 8f81b1dd02f5e1548927fc4cefb1d0b6, type: 3}
+  - {fileID: 21300000, guid: aba56221f0ba0714a9963fe25c780e27, type: 3}
+  - {fileID: 21300000, guid: bfc1cf43a6a5d434fba424edb9511e70, type: 3}
+  masks_women:
+  - {fileID: 21300000, guid: 0c1713b974457434faeae6baf5b990db, type: 3}
+  - {fileID: 21300000, guid: 4294556180f0f0347bd2a9a823e32153, type: 3}
+  - {fileID: 21300000, guid: 4b0cdce7de8a2f44e879bb392ea990a3, type: 3}
+  - {fileID: 21300000, guid: 3b11213ffa3ba3c47a008137d94597b2, type: 3}
+  outfits_women:
+  - {fileID: 21300000, guid: 54e9e2bc1c1ce2641b4cd8aef69fffdd, type: 3}
+  - {fileID: 21300000, guid: 3e33fe7e226c7af4eaf2ce0f8d13888b, type: 3}
+  - {fileID: 21300000, guid: f7632eae954fcf34e985d370c2e695ba, type: 3}
+  - {fileID: 21300000, guid: 0016ffbe9601fff4ead1a7e3c05dd1d1, type: 3}
+  - {fileID: 21300000, guid: 2f1aa383b22a8e5469daf0a746f33add, type: 3}
+  accessories_women:
+  - {fileID: 21300000, guid: fa444461445cd314797e135c56a17dd4, type: 3}
+  - {fileID: 21300000, guid: 4864f470e328c30459dfd590a80465f0, type: 3}
   skinColor: []
   hairColor: []

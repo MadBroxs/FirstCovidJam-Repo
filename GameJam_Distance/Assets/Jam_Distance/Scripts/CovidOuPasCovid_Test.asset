@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acec1ee4857677848b062a14b0d4649e, type: 3}
   m_Name: CovidOuPasCovid_Test
   m_EditorClassIdentifier: 
+  spriteLib: {fileID: 0}
   character:
     name: 
     isMale: 0
