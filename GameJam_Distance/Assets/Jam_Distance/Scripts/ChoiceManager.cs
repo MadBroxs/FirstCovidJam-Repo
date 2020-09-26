@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class ChoiceManager : MonoBehaviour
 {
-    public static SituationSCO situation;
+    public static SituationSCO actuelSituation;
 
     public Button validateButton;
     public Button rejectButton;
@@ -20,7 +20,7 @@ public class ChoiceManager : MonoBehaviour
 
     void OnAccept()
     {
-        if (!situation.isCovided)
+        if (!actuelSituation.isCovided)
         {
             GoodReaction();
         }
@@ -31,7 +31,7 @@ public class ChoiceManager : MonoBehaviour
     }
     void OnRefuse()
     {
-        if (situation.isCovided)
+        if (actuelSituation.isCovided)
         {
             GoodReaction();
         }
@@ -50,7 +50,7 @@ public class ChoiceManager : MonoBehaviour
     {
         badFeedBack.Play(transform.position, 1);
 
-        if (situation.isCovided)
+        if (actuelSituation.isCovided)
         {
             //ecole infectée
         }
