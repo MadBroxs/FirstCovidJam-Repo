@@ -3,42 +3,37 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CharaManager : MonoBehaviour
+[CreateAssetMenu(fileName = "SpriteLibrairie")]
+public class CharaManager : ScriptableObject
 {
-    #region Singleton Pattern
-    static CharaManager _instance = null;
-    public static CharaManager Instance
-    {
-        get
-        {
-            if (!_instance)
-                _instance = GameObject.FindGameObjectWithTag("SpriteLibrairie").GetComponent<CharaManager>();
-            return _instance;
-        }
-    }
-
-    #endregion
-
     //Variables
     [Header("Visual")]
-    public Sprite[] heads;
+    public Sprite [] hat;
+    public Sprite[] hairs;
     public Sprite[] masks;
     public Sprite[] bears;
     public Sprite[] outfits;
+
     [Header("Color"), Space(25)]
     public Color[] skinColor;
     public Color[] hairColor;
 
+
     //Methods
-    public static Sprite GetRandomMask()
+    public Sprite GetRandomHat()
     {
-        int num = Random.Range(0, _instance.masks.Length);
-        return _instance.masks[num];
+        int num = Random.Range(0, hat.Length);
+        return hat[num];
     }
-    public Sprite GetRandomHead()
+    public Sprite GetRandomHairs()
     {
-        int num = Random.Range(0, heads.Length);
-        return heads[num];
+        int num = Random.Range(0, hairs.Length);
+        return hairs[num];
+    }
+    public Sprite GetRandomMask()
+    {
+        int num = Random.Range(0, masks.Length);
+        return masks[num];
     }
     public Sprite GetRandomBear()
     {
@@ -50,6 +45,4 @@ public class CharaManager : MonoBehaviour
         int num = Random.Range(0, outfits.Length);
         return outfits[num];
     }
-    
-
 }
