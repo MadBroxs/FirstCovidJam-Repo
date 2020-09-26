@@ -33,6 +33,12 @@ public class SituationSCO : ScriptableObject
     [Header("Personnage")]
     public Persona character;
 
+    [Button()]
+    public void RandomPerso()
+    {
+
+    }
+
     [Header("Info"), MultiLineProperty(5)]
     public string situationContexte;
     public bool isCovided;
