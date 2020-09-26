@@ -23,6 +23,7 @@ public class CharaManager : MonoBehaviour
     [Header("Visual")]
     public Sprite[] heads;
     public Sprite[] masks;
+    public Sprite[] bears;
     public Sprite[] outfits;
     [Header("Color"), Space(25)]
     public Color[] skinColor;
@@ -39,10 +40,16 @@ public class CharaManager : MonoBehaviour
         int num = Random.Range(0, heads.Length);
         return heads[num];
     }
+    public Sprite GetRandomBear()
+    {
+        int num = Random.Range(0, bears.Length);
+        return bears[num];
+    }
     public Sprite GetRandomOutfits()
     {
         int num = Random.Range(0, outfits.Length);
         return outfits[num];
     }
+    
 
 }
