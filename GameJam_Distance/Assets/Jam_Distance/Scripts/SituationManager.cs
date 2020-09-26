@@ -2,16 +2,16 @@
 
 public class SituationManager : MonoBehaviour
 {
-    public SituationSCO[] allSituation;
+    public SituationSCO[] allSituations;
+    public ChoiceManager choice;
+    
 
-    void Start()
+    private void Awake()
     {
-        
+        EventManager.onNewSituation += NextSituation;
     }
-
-    // Update is called once per frame
-    void Update()
+    public void NextSituation()
     {
-        
+        choice.actuelSituation = allSituations[Random.Range(0, allSituations.Length)];
     }
 }

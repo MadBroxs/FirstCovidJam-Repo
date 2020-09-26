@@ -1,18 +1,40 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 
 public class EventManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    #region Singletton Pattern
+    public static EventManager current;
+    private void Awake()
     {
-        
+        current = this;
+    }
+    #endregion
+
+    public static event Action onCharaUpdate;
+
+    public static event Action onNewSituation;
+
+    public static event Action onRevolution;
+    public static event Action onSchoolClose;
+
+    public static void CharaUpdate()
+    {
+        onCharaUpdate?.Invoke();
+    }
+   
+    public static void NewSituation()
+    {
+        onNewSituation?.Invoke();
+    }
+    
+    public static void Revolution()
+    {
+        onRevolution?.Invoke();
+    }
+    public static void SchoolClose()
+    {
+        onSchoolClose?.Invoke();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
