@@ -9,6 +9,7 @@ public class Card_Character : ScriptableObject
 
 [Header("Sprite")]
     public Sprite head;
+    public Sprite bear;
     public Sprite mask;
     public Sprite outfit;
 
