@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acec1ee4857677848b062a14b0d4649e, type: 3}
+  m_Name: CovidOuPasCovid_Test
+  m_EditorClassIdentifier: 
+  character:
+    name: 
+    isMale: 0
+    hat: {fileID: 0}
+    hair: {fileID: 0}
+    mask: {fileID: 0}
+    bear: {fileID: 0}
+    outfit: {fileID: 0}
+  situationContexte: "On a fait une r\xE9union en petit comit\xE9 en respectant l\u2019ensemble
+    des mesures barri\xE8res notamment gel, les 1 m\xE8tres de distance. Tu penses
+    que je devrais passer le test ?"
+  isCovided: 0
+  replyGoodChoice: 
+  replyBadChoice: 
