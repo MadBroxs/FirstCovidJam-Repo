@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class ChoiceManager : MonoBehaviour
 {
-    public static SituationSCO actuelSituation;
+    public SituationSCO actuelSituation;
 
     public Button validateButton;
     public Button rejectButton;
@@ -12,7 +12,7 @@ public class ChoiceManager : MonoBehaviour
     public MMFeedback goodFeedBack;
     public MMFeedback badFeedBack;
      
-    void OnEnable()
+    void Awake()
     {
         validateButton.onClick.AddListener(OnAccept);
         rejectButton.onClick.AddListener(OnRefuse);
@@ -28,6 +28,8 @@ public class ChoiceManager : MonoBehaviour
         {
             BadReaction();
         }
+
+        EventManager.NewSituation();
     }
     void OnRefuse()
     {
@@ -39,6 +41,8 @@ public class ChoiceManager : MonoBehaviour
         {
             BadReaction();
         }
+
+        EventManager.NewSituation();
     }
 
     private void GoodReaction()
@@ -52,14 +56,12 @@ public class ChoiceManager : MonoBehaviour
 
         if (actuelSituation.isCovided)
         {
-            //ecole infectée
+            GameManager.covidCase++;
         }
         else
         {
-            //étudiant en colère
+            GameManager.studentRage++;
         }
     }
-
-
 
 }

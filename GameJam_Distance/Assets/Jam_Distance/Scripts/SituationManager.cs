@@ -3,6 +3,8 @@
 public class SituationManager : MonoBehaviour
 {
     public SituationSCO[] allSituations;
+    public ChoiceManager choice;
+    
 
     private void Awake()
     {
@@ -10,6 +12,6 @@ public class SituationManager : MonoBehaviour
     }
     public void NextSituation()
     {
-        ChoiceManager.actuelSituation = allSituations[Random.Range(0, allSituations.Length)];
+        choice.actuelSituation = allSituations[Random.Range(0, allSituations.Length)];
     }
 }

@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
     public static int covidCase = 0;
     public static int studentRage = 0;
 
+    private bool eventProk = false;
     private void Awake()
     {
         ResetStats();    
@@ -13,17 +14,21 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (covidCase > 2)
+        if (!eventProk)
         {
-            EventManager.SchoolClose();
-            Debug.LogError("Rubika ferme");
-        }
-        else
-        if (studentRage > 2)
-        {
-            EventManager.Revolution();
-            Debug.LogError("Revolution");
-
+            if (covidCase > 2)
+            {
+                EventManager.SchoolClose();
+                Debug.LogError("Rubika ferme");
+                eventProk = true;
+            }
+            else
+            if (studentRage > 2)
+            {
+                EventManager.Revolution();
+                Debug.LogError("Revolution");
+                eventProk = true;
+            }
         }
     }
 
