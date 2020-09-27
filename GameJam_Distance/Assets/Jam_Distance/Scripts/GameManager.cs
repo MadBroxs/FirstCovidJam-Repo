@@ -19,15 +19,15 @@ public class GameManager : MonoBehaviour
             if (covidCase > 2)
             {
                 EventManager.SchoolClose();
-                Debug.LogError("Rubika ferme");
                 eventProk = true;
+                SceneHandler.GoToSchoolClosed();
             }
             else
             if (studentRage > 2)
             {
                 EventManager.Revolution();
-                Debug.LogError("Revolution");
                 eventProk = true;
+                SceneHandler.GoToGDvolution();
             }
         }
     }
