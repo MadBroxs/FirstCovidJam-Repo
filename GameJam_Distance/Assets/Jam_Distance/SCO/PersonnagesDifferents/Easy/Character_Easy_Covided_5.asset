@@ -23,7 +23,7 @@ MonoBehaviour:
     bear: {fileID: 21300000, guid: 207fa7879ec05ef418f8fa61b3642e48, type: 3}
     outfit: {fileID: 21300000, guid: 62ceea0a4e7067c40a7ee068fe2ea5bd, type: 3}
     accessoires: {fileID: 0}
-  situationContexte: "Bonjour, pour mieu se connaitre on a d\xE9cid\xE9 de faire
-    une f\xEAte dehors vu qu'il fait beau, avec les gestes barri\xE8res bien sur.
+  situationContexte: "Bonjour, pour mieux se conna\xEEtre, on a d\xE9cid\xE9 de faire
+    une f\xEAte dehors vu qu'il fait beau, avec les gestes barri\xE8res bien s\xFBr.
     On a le droit nan ?\n"
   isCovided: 1
