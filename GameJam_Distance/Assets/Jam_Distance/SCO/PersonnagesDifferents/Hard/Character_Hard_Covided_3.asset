@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: acec1ee4857677848b062a14b0d4649e, type: 3}
-  m_Name: Character_Medium_CovidF_5
+  m_Name: Character_Hard_Covided_3
   m_EditorClassIdentifier: 
   spriteLib: {fileID: 11400000, guid: aaba877b0a70c3b43ad7cdd97b98f2e5, type: 2}
   character:
@@ -19,9 +19,10 @@ MonoBehaviour:
     body: {fileID: 21300000, guid: 43524a4bab208064abbd0d646cd51397, type: 3}
     hat: {fileID: 21300000, guid: a09b4b8d816816c40865f450c00e005a, type: 3}
     hair: {fileID: 21300000, guid: 9893be2f9147d6f4db4df811166e3e47, type: 3}
-    mask: {fileID: 21300000, guid: 4979e3016cd72f94591568aba4844e64, type: 3}
-    bear: {fileID: 21300000, guid: 79c32e3d07629894094084c4c8fa0bb8, type: 3}
+    mask: {fileID: 21300000, guid: c2f87b600e3139b40ac8def68cced0cd, type: 3}
+    bear: {fileID: 21300000, guid: 207fa7879ec05ef418f8fa61b3642e48, type: 3}
     outfit: {fileID: 21300000, guid: 0aaa4890c1e8e5a40820d0f545521b60, type: 3}
     accessoires: {fileID: 0}
-  situationContexte: Bonjour Elodie, tu veux un carambar ?
-  isCovided: 0
+  situationContexte: "Bonjour, \rJ\u2019ai h\xE9berg\xE9 un pote suite \xE0 une soir\xE9e,
+    c\u2019est grave ?\r\n"
+  isCovided: 1

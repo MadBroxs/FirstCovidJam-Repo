@@ -10,19 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: acec1ee4857677848b062a14b0d4649e, type: 3}
-  m_Name: Character_Medium_CovidF_1
+  m_Name: Character_Hard_CovidF_5
   m_EditorClassIdentifier: 
   spriteLib: {fileID: 11400000, guid: aaba877b0a70c3b43ad7cdd97b98f2e5, type: 2}
   character:
     name: 
     isMale: 1
     body: {fileID: 21300000, guid: 43524a4bab208064abbd0d646cd51397, type: 3}
-    hat: {fileID: 0}
+    hat: {fileID: 21300000, guid: 7d0df0c78563d9448b6db05e724a0903, type: 3}
     hair: {fileID: 21300000, guid: 51fb0a3c77e8e8e44ab67762f970793c, type: 3}
     mask: {fileID: 21300000, guid: a0976bbe66addd34191c28b9db31f01b, type: 3}
-    bear: {fileID: 21300000, guid: 79c32e3d07629894094084c4c8fa0bb8, type: 3}
-    outfit: {fileID: 21300000, guid: 87690f30178fbdf448e42051c4849cc8, type: 3}
+    bear: {fileID: 21300000, guid: 207fa7879ec05ef418f8fa61b3642e48, type: 3}
+    outfit: {fileID: 21300000, guid: dcaaf1d6c947f4944a986db12a79a765, type: 3}
     accessoires: {fileID: 0}
-  situationContexte: "Bonjour, on veut faire une r\xE9union \xE0 la caf\xE9t\xE9ria.
-    Est ce que c\u2019est possible de rapprocher les chaises ?"
+  situationContexte: "Bonjour, Je discutais avec mon camarade quand il m\u2019a dit
+    qu\u2019il pensait avoir re\xE7u un postillon alors que j\u2019avais mon masque,
+    tu penses qu\u2019il devrait se faire tester ?\r\n"
   isCovided: 0

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acec1ee4857677848b062a14b0d4649e, type: 3}
+  m_Name: Character_Hard_CovidF_3
+  m_EditorClassIdentifier: 
+  spriteLib: {fileID: 11400000, guid: aaba877b0a70c3b43ad7cdd97b98f2e5, type: 2}
+  character:
+    name: 
+    isMale: 0
+    body: {fileID: 21300000, guid: 8f4722e0ef32e8a4b9c4a4ea715fc333, type: 3}
+    hat: {fileID: 0}
+    hair: {fileID: 21300000, guid: 8f81b1dd02f5e1548927fc4cefb1d0b6, type: 3}
+    mask: {fileID: 21300000, guid: 4294556180f0f0347bd2a9a823e32153, type: 3}
+    bear: {fileID: 0}
+    outfit: {fileID: 21300000, guid: f7632eae954fcf34e985d370c2e695ba, type: 3}
+    accessoires: {fileID: 21300000, guid: 4864f470e328c30459dfd590a80465f0, type: 3}
+  situationContexte: "Bonjour, \rJ\u2019ai vu ma grand m\xE8re il ya 2 semaines,
+    elle m\u2019a dit qu\u2019elle a eu de la fi\xE8vre hier, tu penses c\u2019est
+    grave ?\r\n"
+  isCovided: 0
