@@ -735,7 +735,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allSituations:
-  - {fileID: 11400000, guid: 6d07eafc481d8e84eaa8da039a333513, type: 2}
+  - {fileID: 11400000, guid: 8d780680331bb1b46b94c00258a86b8b, type: 2}
+  - {fileID: 11400000, guid: 0496ab9a41402804aaa3a7ce74b8954e, type: 2}
+  - {fileID: 11400000, guid: ae12bf2a99eb49f4aa8cc98497ab1ad1, type: 2}
+  - {fileID: 11400000, guid: 4c320fdd8f28a52468a00c51eb808a2f, type: 2}
+  - {fileID: 11400000, guid: 5517b3a6f24f0da4ca1b238ab061ee56, type: 2}
+  - {fileID: 11400000, guid: 4b59343a0762f2b43b8fcf36c385b828, type: 2}
+  - {fileID: 11400000, guid: 806e8de8a62cd0e4d941d9034ee48455, type: 2}
+  - {fileID: 11400000, guid: 1443c3f4efe4de34c9a4f8a54bdbe095, type: 2}
+  - {fileID: 11400000, guid: 95d753fe37e48f2418b778e35a88bec8, type: 2}
+  - {fileID: 11400000, guid: a28fcacceb2d87a42a6114fb50e7a600, type: 2}
   choice: {fileID: 709079479}
 --- !u!1 &768038485
 GameObject:
@@ -908,13 +917,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a2094e56efdb6248aed89fac1102c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  choice: {fileID: 709079479}
+  blabla: {fileID: 1864027452}
   body: {fileID: 476799543}
   hat: {fileID: 1329937947}
   hair: {fileID: 634948026}
   mask: {fileID: 1496120716}
   bear: {fileID: 579631675}
   outfit: {fileID: 1528700664}
-  choice: {fileID: 0}
 --- !u!1 &1059981529
 GameObject:
   m_ObjectHideFlags: 0
@@ -1961,7 +1971,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 94.9
+  m_fontSize: 96.9
   m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2044,10 +2054,10 @@ RectTransform:
   m_Father: {fileID: 1732838808}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 500}
-  m_SizeDelta: {x: -50, y: -1050}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -525}
+  m_SizeDelta: {x: 982.5, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1932111175
 MonoBehaviour:

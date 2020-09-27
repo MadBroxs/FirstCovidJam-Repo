@@ -19,7 +19,7 @@ public class SceneHandler : MonoBehaviour
     }
     public static void GoToSchoolClosed()
     {
-        SceneManager.LoadScene("GameOver - Covidead");
+        SceneManager.LoadScene("GameOver-Covidead");
     }
 
 
