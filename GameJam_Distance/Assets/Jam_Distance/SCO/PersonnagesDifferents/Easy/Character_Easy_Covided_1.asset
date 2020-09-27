@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acec1ee4857677848b062a14b0d4649e, type: 3}
+  m_Name: Character_Easy_Covided_1
+  m_EditorClassIdentifier: 
+  spriteLib: {fileID: 11400000, guid: aaba877b0a70c3b43ad7cdd97b98f2e5, type: 2}
+  character:
+    name: 
+    isMale: 1
+    body: {fileID: 21300000, guid: 43524a4bab208064abbd0d646cd51397, type: 3}
+    hat: {fileID: 21300000, guid: a09b4b8d816816c40865f450c00e005a, type: 3}
+    hair: {fileID: 21300000, guid: 8fa5d2a59174d2a4599b33a767e0d872, type: 3}
+    mask: {fileID: 21300000, guid: 4979e3016cd72f94591568aba4844e64, type: 3}
+    bear: {fileID: 21300000, guid: 207fa7879ec05ef418f8fa61b3642e48, type: 3}
+    outfit: {fileID: 21300000, guid: 355d511c4197eda499023defc3aac607, type: 3}
+    accessoires: {fileID: 0}
+  situationContexte: "Bonjour, hier j\u2019\xE9tais dans le train et quelqu\u2019un
+    a touss\xE9, depuis je ressens de la fi\xE8vre, je suis fatigu\xE9 en ce moment,
+    je tousse et je crois avoir une perte d\u2019odorat. Tu crois que c\u2019est
+    grave "
+  isCovided: 1

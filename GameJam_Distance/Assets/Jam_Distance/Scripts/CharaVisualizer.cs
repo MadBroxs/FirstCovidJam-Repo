@@ -20,5 +20,7 @@ public class CharaVisualizer : MonoBehaviour
         mask.sprite = choice.actuelSituation.character.mask;
         bear.sprite = choice.actuelSituation.character.bear;
         outfit.sprite = choice.actuelSituation.character.outfit;
+
+        //body.color = choice.actuelSituation.character.skinColor;
     }
 }

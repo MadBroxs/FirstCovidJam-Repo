@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: acec1ee4857677848b062a14b0d4649e, type: 3}
-  m_Name: CovidOuPasCovid_Test
+  m_Name: Character_Medium_Covided_4
   m_EditorClassIdentifier: 
   spriteLib: {fileID: 11400000, guid: aaba877b0a70c3b43ad7cdd97b98f2e5, type: 2}
   character:
@@ -18,12 +18,12 @@ MonoBehaviour:
     isMale: 1
     body: {fileID: 21300000, guid: 43524a4bab208064abbd0d646cd51397, type: 3}
     hat: {fileID: 0}
-    hair: {fileID: 21300000, guid: 4d70b3314e6a3c64e8d4fcecdaa95b9a, type: 3}
-    mask: {fileID: 21300000, guid: a0976bbe66addd34191c28b9db31f01b, type: 3}
-    bear: {fileID: 21300000, guid: 79c32e3d07629894094084c4c8fa0bb8, type: 3}
-    outfit: {fileID: 21300000, guid: 0aaa4890c1e8e5a40820d0f545521b60, type: 3}
+    hair: {fileID: 21300000, guid: 8fa5d2a59174d2a4599b33a767e0d872, type: 3}
+    mask: {fileID: 21300000, guid: c2f87b600e3139b40ac8def68cced0cd, type: 3}
+    bear: {fileID: 21300000, guid: 207fa7879ec05ef418f8fa61b3642e48, type: 3}
+    outfit: {fileID: 21300000, guid: 62ceea0a4e7067c40a7ee068fe2ea5bd, type: 3}
     accessoires: {fileID: 0}
-  situationContexte: "On a fait une r\xE9union en petit comit\xE9 en respectant l\u2019ensemble
-    des mesures barri\xE8res notamment gel, les 1 m\xE8tres de distance. Tu penses
-    que je devrais passer le test ?"
-  isCovided: 0
+  situationContexte: "Bonjour, pour mieux se conna\xEEtre, on a d\xE9cid\xE9 de faire
+    une f\xEAte dehors vu qu'il fait beau, avec les gestes barri\xE8res bien s\xFBr.
+    On a le droit nan ?"
+  isCovided: 1

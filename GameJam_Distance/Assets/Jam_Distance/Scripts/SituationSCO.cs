@@ -15,14 +15,15 @@ public struct Persona
     public Sprite bear;
     public Sprite outfit;
     public Sprite accessoires;
+
+    //ajout couleur
 }
 
 
 [CreateAssetMenu(fileName = "CovidOuPasCovid?")]
 public class SituationSCO : ScriptableObject
 {
-    [SerializeField]
-    private CharaManager spriteLib;
+    public CharaManager spriteLib;
 
     [Header("Personnage")]
     public Persona character;
@@ -48,9 +49,5 @@ public class SituationSCO : ScriptableObject
     [Header("Info"), MultiLineProperty(5)]
     public string situationContexte;
     public bool isCovided;
-    [Space(25), MultiLineProperty(2)]
-    public string replyGoodChoice;
-    [MultiLineProperty(2)]
-    public string replyBadChoice;
 }
 
