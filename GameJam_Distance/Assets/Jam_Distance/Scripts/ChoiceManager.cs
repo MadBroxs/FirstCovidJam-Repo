@@ -11,7 +11,7 @@ public class ChoiceManager : MonoBehaviour
 
     public MMFeedback goodFeedBack;
     public MMFeedback badFeedBack;
-     
+
     void Awake()
     {
         validateButton.onClick.AddListener(OnAccept);
@@ -48,6 +48,7 @@ public class ChoiceManager : MonoBehaviour
     private void GoodReaction()
     {
         goodFeedBack.Play(transform.position, 1);
+        SituationManager.countWin++;
     }
 
     private void BadReaction()
