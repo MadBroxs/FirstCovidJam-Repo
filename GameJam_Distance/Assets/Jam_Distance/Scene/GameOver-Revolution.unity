@@ -639,7 +639,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 986256808}
-  - component: {fileID: 986256809}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -669,26 +668,6 @@ Transform:
   m_Father: {fileID: 1429848543}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &986256809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 986256807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a2094e56efdb6248aed89fac1102c78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  choice: {fileID: 0}
-  blabla: {fileID: 0}
-  body: {fileID: 476799543}
-  hat: {fileID: 1329937947}
-  hair: {fileID: 634948026}
-  mask: {fileID: 1496120716}
-  bear: {fileID: 579631675}
-  outfit: {fileID: 1528700664}
 --- !u!1 &1074891232
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,7 +14,7 @@ public class SituationManager : MonoBehaviour
 
     [Header("Situation Dur"), Space(10)]
     public SituationSCO[] hardSituations;
-    
+
     public ChoiceManager choice;
 
 
@@ -29,7 +29,7 @@ public class SituationManager : MonoBehaviour
         //choice.actuelSituation = allSituations[Random.Range(0, allSituations.Length)];
 
         choice.actuelSituation = easySituations[Random.Range(0, easySituations.Length)];
-        
+
         if (GameManager.countWin > 5)
         {
             choice.actuelSituation = mediumSituations[Random.Range(0, mediumSituations.Length)];
@@ -38,10 +38,5 @@ public class SituationManager : MonoBehaviour
                 choice.actuelSituation = hardSituations[Random.Range(0, hardSituations.Length)];
             }
         }
-    }
-
-    void RandomRangeNotSameNumber()
-    {
-
     }
 }

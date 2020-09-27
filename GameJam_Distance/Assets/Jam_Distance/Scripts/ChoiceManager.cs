@@ -23,6 +23,7 @@ public class ChoiceManager : MonoBehaviour
         if (!actuelSituation.isCovided)
         {
             GoodReaction();
+            GameManager.countWin ++;
         }
         else
         {
@@ -36,6 +37,7 @@ public class ChoiceManager : MonoBehaviour
         if (actuelSituation.isCovided)
         {
             GoodReaction();
+            GameManager.countWin ++;
         }
         else
         {
@@ -48,7 +50,7 @@ public class ChoiceManager : MonoBehaviour
     private void GoodReaction()
     {
         goodFeedBack.Play(transform.position, 1);
-        GameManager.countWin++;
+        
     }
 
     private void BadReaction()
