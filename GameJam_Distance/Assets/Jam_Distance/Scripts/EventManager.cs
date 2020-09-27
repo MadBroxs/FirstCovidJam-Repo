@@ -17,6 +17,7 @@ public class EventManager : MonoBehaviour
 
     public static event Action onRevolution;
     public static event Action onSchoolClose;
+    public static event Action onVictorySchool;
 
     public static void CharaUpdate()
     {
@@ -35,6 +36,10 @@ public class EventManager : MonoBehaviour
     public static void SchoolClose()
     {
         onSchoolClose?.Invoke();
+    }
+    public static void VictorySchool()
+    {
+        onVictorySchool?.Invoke();
     }
 
 }

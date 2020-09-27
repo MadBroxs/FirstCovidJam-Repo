@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: 
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Jam_Distance/Scene/GameMenu.unity
@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Jam_Distance/Scene/GameOver-Revolution.unity
     guid: 34c257dce1f654043a3e8ba72d7209cd
+  - enabled: 1
+    path: Assets/Jam_Distance/Scene/Victory-CovidFree.unity
+    guid: ed7cdadcbf81ae34ea7102a971c91a80
   m_configObjects: {}

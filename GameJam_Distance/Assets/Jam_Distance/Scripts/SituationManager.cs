@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class SituationManager : MonoBehaviour
 {
@@ -13,26 +14,34 @@ public class SituationManager : MonoBehaviour
 
     [Header("Situation Dur"), Space(10)]
     public SituationSCO[] hardSituations;
+    
     public ChoiceManager choice;
-    public static int countWin = 0;
+
 
 
     private void Awake()
     {
         EventManager.onNewSituation += NextSituation;
+
     }
     public void NextSituation()
     {
         //choice.actuelSituation = allSituations[Random.Range(0, allSituations.Length)];
 
         choice.actuelSituation = easySituations[Random.Range(0, easySituations.Length)];
-        if (countWin > 5)
+        
+        if (GameManager.countWin > 5)
         {
             choice.actuelSituation = mediumSituations[Random.Range(0, mediumSituations.Length)];
-            if (countWin > 10)
+            if (GameManager.countWin > 10)
             {
                 choice.actuelSituation = hardSituations[Random.Range(0, hardSituations.Length)];
             }
         }
+    }
+
+    void RandomRangeNotSameNumber()
+    {
+
     }
 }

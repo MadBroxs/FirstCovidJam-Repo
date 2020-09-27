@@ -48,7 +48,7 @@ public class ChoiceManager : MonoBehaviour
     private void GoodReaction()
     {
         goodFeedBack.Play(transform.position, 1);
-        SituationManager.countWin++;
+        GameManager.countWin++;
     }
 
     private void BadReaction()

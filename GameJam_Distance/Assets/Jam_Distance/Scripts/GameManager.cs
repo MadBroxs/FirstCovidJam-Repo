@@ -3,13 +3,15 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+
+    public static int countWin = 0;
     public static int covidCase = 0;
     public static int studentRage = 0;
 
     private bool eventProk = false;
     private void Awake()
     {
-        ResetStats();    
+        ResetStats();
     }
 
     private void Update()
@@ -28,6 +30,14 @@ public class GameManager : MonoBehaviour
                 EventManager.Revolution();
                 eventProk = true;
                 SceneHandler.GoToGDvolution();
+            }
+
+            if (countWin > 15)
+            {
+                EventManager.VictorySchool();
+                eventProk = true;
+                SceneHandler.GoToSchoolVictoryScene();
+
             }
         }
     }
