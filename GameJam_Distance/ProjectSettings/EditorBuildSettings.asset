@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Jam_Distance/Scene/GameMenu.unity
+    guid: 9aacd9e989867bf4bbda22af57694078
+  - enabled: 1
+    path: Assets/Jam_Distance/Scene/GameMain.unity
+    guid: 5e93b2ea9595b8648b5a57ce09774514
+  - enabled: 1
+    path: Assets/Jam_Distance/Scene/GameOver-Covidead.unity
+    guid: 75bd77e53b0eac747aedf10be5160275
+  - enabled: 1
+    path: Assets/Jam_Distance/Scene/GameOver-Revolution.unity
+    guid: 34c257dce1f654043a3e8ba72d7209cd
   m_configObjects: {}

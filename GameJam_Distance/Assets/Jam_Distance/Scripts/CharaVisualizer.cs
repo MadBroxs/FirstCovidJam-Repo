@@ -1,8 +1,15 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class CharaVisualizer : MonoBehaviour
 {
-    [Header("Sprite")]
+    public ChoiceManager choice;
+
+    [Header("Character")]
+    public TextMeshProUGUI blabla;
+
+    [Header("Character")]
     public SpriteRenderer body;
     public SpriteRenderer hat;
     public SpriteRenderer hair;
@@ -10,7 +17,6 @@ public class CharaVisualizer : MonoBehaviour
     public SpriteRenderer bear;
     public SpriteRenderer outfit;
 
-    public ChoiceManager choice;
 
     void Update()
     {
@@ -21,6 +27,7 @@ public class CharaVisualizer : MonoBehaviour
         bear.sprite = choice.actuelSituation.character.bear;
         outfit.sprite = choice.actuelSituation.character.outfit;
 
+        blabla.text = choice.actuelSituation.situationContexte;
         //body.color = choice.actuelSituation.character.skinColor;
     }
 }
